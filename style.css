@@ -68,3 +68,38 @@ img{
     50%{transform:translateY(-10px);}
     100%{transform:translateY(0);}
 }
+/* จัดข้อความให้อยู่ตรงกลาง */
+body{
+    text-align:center;
+}
+
+/* ชื่อ */
+h2{
+    color:#7B3FBF;
+}
+
+/* ข้อความต้อนรับ */
+p{
+    color:#555;
+    font-size:18px;
+}
+
+/* ปุ่มเมนู */
+a{
+    display:inline-block;
+    background:#D8B4FE;
+    color:#5B2C87;
+    text-decoration:none;
+    padding:15px 30px;
+    margin:10px;
+    border-radius:30px;
+    transition:0.3s;
+    font-weight:bold;
+}
+
+/* เอฟเฟกต์เวลาเอาเมาส์ชี้ */
+a:hover{
+    background:#C084FC;
+    transform:translateY(-5px);
+    box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}

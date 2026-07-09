@@ -755,3 +755,175 @@ transform:translateY(-10px);
 }
 
 }
+/* 💌 Contact Animation */
+
+.contact-card {
+
+animation: contactShow 1.2s ease;
+
+}
+
+
+
+@keyframes contactShow {
+
+from {
+
+opacity:0;
+
+transform:translateY(80px) scale(0.95);
+
+}
+
+
+to {
+
+opacity:1;
+
+transform:translateY(0) scale(1);
+
+}
+
+}
+
+
+
+
+.contact-card .profile-img {
+
+animation: gentleFloat 3s infinite ease-in-out;
+
+}
+
+
+
+@keyframes gentleFloat {
+
+0%,100% {
+
+transform:translateY(0);
+
+}
+
+
+50% {
+
+transform:translateY(-12px);
+
+}
+
+}
+
+
+
+
+.contact-box {
+
+animation: boxFade 1s ease forwards;
+
+opacity:0;
+
+}
+
+
+
+.contact-box:nth-child(3){
+
+animation-delay:.2s;
+
+}
+
+
+.contact-box:nth-child(4){
+
+animation-delay:.4s;
+
+}
+
+
+.contact-box:nth-child(5){
+
+animation-delay:.6s;
+
+}
+
+
+
+@keyframes boxFade {
+
+from {
+
+opacity:0;
+
+transform:translateY(30px);
+
+}
+
+
+to {
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+
+
+
+.contact-box:hover {
+
+transform:translateY(-10px) scale(1.02);
+
+box-shadow:
+
+0 15px 35px rgba(255,150,200,0.45);
+
+}
+
+
+
+
+.contact-box h2 {
+
+animation:titleGlow 2s infinite alternate;
+
+}
+
+
+
+@keyframes titleGlow {
+
+from {
+
+text-shadow:0 0 0px #ffb6d9;
+
+}
+
+
+to {
+
+text-shadow:0 0 15px #ffb6d9;
+
+}
+
+}
+
+
+
+
+.contact-box p {
+
+transition:.3s;
+
+}
+
+
+
+.contact-box:hover p {
+
+letter-spacing:0.5px;
+
+}

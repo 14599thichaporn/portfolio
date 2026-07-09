@@ -140,3 +140,21 @@ h2,p{
         transform:translateY(0);
     }
 }
+.card{
+    width:70%;
+    margin:30px auto;
+    background:rgba(255,255,255,0.7);
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+    backdrop-filter:blur(8px);
+}
+
+.card h3{
+    color:#8A4FFF;
+}
+
+.card:hover{
+    transform:scale(1.03);
+    transition:.4s;
+}

@@ -375,3 +375,249 @@ nav a:hover {
     color: #CC66FF;
     transform: scale(1.1);
 }
+body {
+
+background: linear-gradient(
+135deg,
+#d9b3ff,
+#b57aff,
+#8c52ff
+);
+
+min-height:100vh;
+
+font-family:sans-serif;
+
+}
+
+
+/* กรอบหลัก */
+
+.profile-card {
+
+width:80%;
+
+max-width:700px;
+
+margin:50px auto;
+
+background:rgba(255,255,255,0.25);
+
+backdrop-filter:blur(15px);
+
+padding:30px;
+
+border-radius:35px;
+
+text-align:center;
+
+box-shadow:0 15px 40px rgba(0,0,0,0.2);
+
+
+animation: slideDown 1s ease;
+
+}
+
+
+
+
+/* กล่องด้านใน */
+
+.box {
+
+background:rgba(255,255,255,0.35);
+
+padding:20px;
+
+margin:25px 0;
+
+border-radius:25px;
+
+text-align:left;
+
+transition:.3s;
+
+}
+
+
+
+.box:hover{
+
+transform:translateY(-8px);
+
+}
+
+
+
+/* รูป */
+
+.profile-img {
+
+width:180px;
+
+height:180px;
+
+object-fit:cover;
+
+border-radius:50%;
+
+border:6px solid white;
+
+animation: float 3s infinite;
+
+}
+
+
+
+
+@keyframes float{
+
+50%{
+transform:translateY(-12px);
+}
+
+}
+
+
+
+/* เปิดหน้าเลื่อนลง */
+
+@keyframes slideDown{
+
+from{
+
+opacity:0;
+
+transform:translateY(-80px);
+
+}
+
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+
+
+/* ดอกไม้ตก */
+
+
+.flower{
+
+position:fixed;
+
+top:-50px;
+
+font-size:30px;
+
+animation:fall 8s linear infinite;
+
+}
+
+
+.flower:nth-child(1){left:10%;}
+.flower:nth-child(2){left:25%;animation-delay:2s;}
+.flower:nth-child(3){left:40%;animation-delay:4s;}
+.flower:nth-child(4){left:60%;animation-delay:1s;}
+.flower:nth-child(5){left:75%;animation-delay:3s;}
+.flower:nth-child(6){left:90%;animation-delay:5s;}
+
+
+
+@keyframes fall{
+
+to{
+
+transform:translateY(110vh) rotate(360deg);
+
+}
+
+}
+
+
+
+/* Skill */
+
+.skill-bar{
+
+height:18px;
+
+background:white;
+
+border-radius:20px;
+
+overflow:hidden;
+
+}
+
+
+
+.skill{
+
+height:100%;
+
+border-radius:20px;
+
+width:0;
+
+animation:skill 2s forwards;
+
+}
+
+
+
+.listen{
+
+width:90%;
+
+background:#d8a7ff;
+
+}
+
+
+
+.teach{
+
+width:85%;
+
+background:#d8a7ff;
+
+}
+
+
+
+.calm{
+
+width:95%;
+
+background:#d8a7ff;
+
+}
+
+
+
+.talk{
+
+width:85%;
+
+background:#d8a7ff;
+
+}
+
+
+
+@keyframes skill{
+
+from{
+
+width:0;
+
+}
+
+}

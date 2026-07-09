@@ -2,7 +2,7 @@
 /* พื้นหลัง */
 body{
     margin:0;
-    font-family:Arial,sans-serif;
+    font-family:'Kanit',sans-serif;
     background:linear-gradient(135deg,#F5EEFF,#E9D5FF,#FFFFFF);
     background-size:300% 300%;
     animation:bgmove 10s ease infinite;

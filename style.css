@@ -1,1 +1,5 @@
-body{background:#F5EEFF;font-family:Arial,sans-serif;}
+
+body{
+    background: linear-gradient(135deg,#F5EEFF,#E9D5FF,#FFFFFF);
+    font-family: Arial, sans-serif;
+}

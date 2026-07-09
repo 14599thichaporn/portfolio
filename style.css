@@ -228,3 +228,22 @@ body.fade-out {
         opacity: 1;
     }
 }
+/* ปุ่มเมนู */
+a {
+    text-decoration: none;
+    color: white;
+    background: rgba(255,255,255,0.2);
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 5px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+/* ตอนเอาเมาส์ชี้ */
+a:hover {
+    transform: translateY(-5px);
+    background: white;
+    color: #CC66FF;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}

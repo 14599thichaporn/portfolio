@@ -998,3 +998,246 @@ padding:25px;
 border-radius:30px;
 
 }
+/* =========================
+   📚 Education Page
+========================= */
+
+.education-card {
+
+    width:80%;
+    max-width:700px;
+
+    margin:50px auto;
+
+    padding:35px;
+
+    background:rgba(255,220,235,0.45);
+
+    backdrop-filter:blur(15px);
+
+    border-radius:45px;
+
+    text-align:center;
+
+    box-shadow:0 15px 40px rgba(255,150,200,0.35);
+
+    animation:educationShow 1s ease;
+
+}
+
+
+
+.education-card h1 {
+
+    color:#c94f91;
+
+}
+
+
+
+.education-box {
+
+    background:rgba(255,255,255,0.75);
+
+    padding:25px;
+
+    margin:25px 0;
+
+    border-radius:35px;
+
+    border:3px solid #ffd0e5;
+
+    text-align:left;
+
+    box-shadow:0 8px 20px rgba(255,150,200,0.2);
+
+    animation:boxShow 1s ease;
+
+    transition:0.4s;
+
+}
+
+
+
+.education-box:hover {
+
+    transform:translateY(-10px);
+
+    box-shadow:0 15px 35px rgba(255,150,200,0.4);
+
+}
+
+
+
+.education-box h2 {
+
+    color:#d45a9d;
+
+}
+
+
+
+.education-box p {
+
+    color:#6b4b62;
+
+    line-height:1.8;
+
+}
+
+
+
+@keyframes educationShow {
+
+from{
+
+    opacity:0;
+
+    transform:translateY(70px);
+
+}
+
+to{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+}
+
+
+
+@keyframes boxShow {
+
+from{
+
+    opacity:0;
+
+    transform:translateY(30px);
+
+}
+
+to{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+}
+
+
+
+/* =========================
+   💌 Contact Page
+========================= */
+
+
+.contact-card {
+
+    width:80%;
+
+    max-width:700px;
+
+    margin:50px auto;
+
+    padding:35px;
+
+    background:rgba(255,220,235,0.45);
+
+    backdrop-filter:blur(15px);
+
+    border-radius:45px;
+
+    text-align:center;
+
+    box-shadow:0 15px 40px rgba(255,150,200,0.35);
+
+    animation:contactShow 1s ease;
+
+}
+
+
+
+.contact-card h1 {
+
+    color:#c94f91;
+
+}
+
+
+
+.contact-box {
+
+    background:rgba(255,255,255,0.8);
+
+    padding:25px;
+
+    margin:25px 0;
+
+    border-radius:35px;
+
+    border:3px solid #ffd0e5;
+
+    text-align:left;
+
+    box-shadow:0 8px 20px rgba(255,150,200,0.25);
+
+    transition:0.4s;
+
+    animation:boxShow 1s ease;
+
+}
+
+
+
+.contact-box:hover {
+
+    transform:translateY(-10px) scale(1.02);
+
+    box-shadow:0 15px 35px rgba(255,150,200,0.45);
+
+}
+
+
+
+.contact-box h2 {
+
+    color:#d45a9d;
+
+}
+
+
+
+.contact-box p {
+
+    color:#6b4b62;
+
+    line-height:1.8;
+
+}
+
+
+
+@keyframes contactShow {
+
+from{
+
+    opacity:0;
+
+    transform:translateY(80px);
+
+}
+
+to{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+}

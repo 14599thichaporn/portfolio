@@ -345,3 +345,7 @@ a:hover {
         transform: translateY(0);
     }
 }
+.profile-img {
+    width: 180px;
+    height: 180px;
+}

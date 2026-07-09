@@ -927,3 +927,74 @@ transition:.3s;
 letter-spacing:0.5px;
 
 }
+/* FIX HOME PAGE */
+
+.home-card{
+    width:80%;
+    max-width:700px;
+    margin:40px auto;
+    padding:35px;
+    text-align:center;
+
+    background:rgba(255,255,255,0.35);
+    backdrop-filter:blur(15px);
+
+    border-radius:40px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,0.2);
+
+    animation:homeShow 1s ease;
+}
+
+
+@keyframes homeShow{
+
+from{
+    opacity:0;
+    transform:translateY(60px);
+}
+
+to{
+    opacity:1;
+    transform:translateY(0);
+}
+
+}
+
+
+.home-img{
+
+width:190px;
+height:190px;
+
+object-fit:cover;
+
+border-radius:50%;
+
+border:8px solid white;
+
+}
+
+
+.menu{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:20px;
+
+}
+
+
+.menu a{
+
+background:white;
+
+color:#7b3fbf;
+
+padding:25px;
+
+border-radius:30px;
+
+}

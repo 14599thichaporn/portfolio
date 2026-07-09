@@ -247,3 +247,48 @@ a:hover {
     color: #CC66FF;
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
+/* ของตกลงมา */
+.falling {
+    position: fixed;
+    top: -20px;
+    width: 15px;
+    height: 15px;
+    background: white;
+    border-radius: 50%;
+    animation: fall 5s linear infinite;
+    z-index: -1;
+}
+
+.falling:nth-child(1) {
+    left: 10%;
+    animation-delay: 0s;
+}
+
+.falling:nth-child(2) {
+    left: 30%;
+    animation-delay: 1s;
+}
+
+.falling:nth-child(3) {
+    left: 50%;
+    animation-delay: 2s;
+}
+
+.falling:nth-child(4) {
+    left: 70%;
+    animation-delay: 1.5s;
+}
+
+.falling:nth-child(5) {
+    left: 90%;
+    animation-delay: 0.5s;
+}
+
+@keyframes fall {
+    from {
+        transform: translateY(-20px);
+    }
+    to {
+        transform: translateY(100vh);
+    }
+}

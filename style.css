@@ -158,3 +158,45 @@ h2,p{
     transform:scale(1.03);
     transition:.4s;
 }
+.circle{
+    position:fixed;
+    border-radius:50%;
+    background:rgba(255,255,255,0.3);
+    animation:floatCircle 10s infinite ease-in-out;
+    z-index:-1;
+}
+
+.c1{
+    width:180px;
+    height:180px;
+    top:10%;
+    left:5%;
+}
+
+.c2{
+    width:250px;
+    height:250px;
+    bottom:10%;
+    right:8%;
+    animation-delay:2s;
+}
+
+.c3{
+    width:120px;
+    height:120px;
+    top:55%;
+    left:40%;
+    animation-delay:4s;
+}
+
+@keyframes floatCircle{
+    0%{
+        transform:translateY(0);
+    }
+    50%{
+        transform:translateY(-30px);
+    }
+    100%{
+        transform:translateY(0);
+    }
+}

@@ -1188,7 +1188,7 @@ to{
 
     transition:0.4s;
 
-    animation:boxShow 1s ease;
+    animation: boxShow 1s ease forwards;
 
 }
 

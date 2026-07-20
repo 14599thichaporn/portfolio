@@ -1283,3 +1283,12 @@ to{
     height: 200px;
     object-fit: cover;
 }
+.activity-img {
+    width: 80%;
+    max-width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}

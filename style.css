@@ -1278,3 +1278,8 @@ to{
 .contact-box:nth-of-type(3){
     animation-delay:.6s;
 }
+.activity-img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
